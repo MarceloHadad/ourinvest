@@ -8,7 +8,7 @@ string GetMostFrequentWord(string[] words)
 
     foreach (string word in words)
     {
-        if(wordDict.ContainsKey(word))
+        if (wordDict.ContainsKey(word))
         {
             wordDict[word]++;
         }
